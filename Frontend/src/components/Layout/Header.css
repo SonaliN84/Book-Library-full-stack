@@ -1,0 +1,21 @@
+.header-container {
+  background-color: blueviolet !important;
+  color: white !important;
+}
+.header-text {
+  color: white !important;
+}
+.loginSignupTitles {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+#navbarScrollingDropdown{
+ color:white;
+}
+.loginSignupTitles1{
+  text-decoration: none;
+  color: blueviolet;
+  cursor: pointer;
+}

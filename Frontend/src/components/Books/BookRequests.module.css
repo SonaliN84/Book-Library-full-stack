@@ -1,0 +1,113 @@
+.book-request-box {
+  margin: 80px auto;
+  width: 900px;
+  max-width: 90%;
+  border: 1px solid rgb(251, 247, 247);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 5px 5px 5px rgb(240, 237, 237);
+}
+
+.pendingbook {
+  width: 90%;
+  border: 1px solid rgb(244, 240, 240);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-shadow: 5px 5px 5px rgb(240, 237, 237);
+}
+.pendingbookimage {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.book-detail-data {
+  margin: 5px;
+}
+.book-detail-data {
+  margin-left: 10px;
+}
+.pendingcover {
+  display: flex;
+}
+.pendingbookbutton {
+  display: flex;
+  flex-direction: column;
+}
+.acceptbutton {
+  margin: 5px;
+  padding: 5px;
+  color: green;
+  border: 2px solid green;
+  border-radius: 13px;
+  background-color: white;
+  /* width: 50%; */
+}
+.acceptbutton:hover {
+  background-color: green;
+  color: white;
+}
+.rejectbutton {
+  margin: 5px;
+  padding: 5px;
+  color: rgb(149, 32, 32);
+  border: 2px solid rgb(149, 32, 32);
+  border-radius: 13px;
+  background-color: white;
+  /* width: 50%; */
+}
+.rejectbutton:hover {
+  background-color: rgb(149, 32, 32);
+  color: white;
+}
+.returnbookbutton {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  /* border: 1px solid red; */
+}
+.submit-button {
+  margin: 10px;
+  padding: 8px;
+  color: blueviolet;
+  border: 2px solid blueviolet;
+  border-radius: 20px;
+  background-color: white;
+}
+.submit-button:hover {
+  background-color: blueviolet;
+  color: white;
+}
+.return-button {
+  margin: 10px;
+  padding: 8px;
+  color: blueviolet;
+  border: 2px solid blueviolet;
+  border-radius: 20px;
+  background-color: white;
+  align-items: end;
+}
+.return-button:hover {
+  background-color: blueviolet;
+  color: white;
+}
+.mybookcover {
+  width: 80%;
+  border: 1px solid rgb(244, 240, 240);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-shadow: 5px 5px 5px rgb(240, 237, 237);
+}

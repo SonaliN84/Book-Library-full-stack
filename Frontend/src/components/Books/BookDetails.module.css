@@ -1,0 +1,37 @@
+.book-detail-box {
+  margin: 80px auto;
+  width: 700px;
+  max-width: 90%;
+  border: 1px solid rgb(251, 247, 247);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 5px 5px 5px rgb(240, 237, 237);
+}
+.book-detail-image {
+  width: 300px;
+  height: 200px;
+  max-width: 90%;
+  margin: 20px auto;
+}
+.book-detail-data {
+  margin: 5px;
+}
+.book-detail-data {
+  margin-left: 10px;
+}
+.submit-button {
+  margin: 20px auto;
+  padding: 8px;
+  color: blueviolet;
+  border: 2px solid blueviolet;
+  border-radius: 20px;
+  background-color: white;
+  width: 50%;
+}
+.submit-button:hover {
+  background-color: blueviolet;
+  color: white;
+}

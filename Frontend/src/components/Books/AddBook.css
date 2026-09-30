@@ -1,0 +1,31 @@
+.book-data {
+  outline: none !important;
+  border: none !important;
+}
+.book-data::placeholder {
+  color: rgb(205, 170, 238) !important;
+}
+.book-text {
+  border-bottom: 1px solid rgb(228, 222, 222);
+  width: 90%;
+  margin: auto;
+}
+input[type="date"] {
+  color: rgb(205, 170, 238);
+}
+.newbutton {
+  display: flex;
+  justify-content: end;
+}
+.submit-button {
+  margin: 10px;
+  padding: 8px;
+  color: blueviolet;
+  border: 2px solid blueviolet;
+  border-radius: 20px;
+  background-color: white;
+}
+.submit-button:hover {
+  background-color: blueviolet;
+  color: white;
+}
